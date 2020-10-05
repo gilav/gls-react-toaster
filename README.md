@@ -11,7 +11,6 @@ My goal is to use a toast like notification in an redux-toolkit app.
 The step to attach this toast component to redux-toolkit is still to be done at this time.
 
 Releases:
-
  - 2020-10-05: V:1.0.0
    - fix few glichh i had with 'uzochukwueddie' code, in particular 'setDismissTime' is not defined. 
    - typescript into

@@ -6,6 +6,4 @@ export default {
   title: "ToastContainer"
 };
 
-export const Primary = () => <ToastContainer/>;
-
 export const Demo = () => <App/>;

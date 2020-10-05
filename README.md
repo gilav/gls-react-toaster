@@ -16,3 +16,4 @@ Releases:
    - typescript into
    - add rollup
    - add storybook
+   - upload at https://www.chromatic.com/apps?accountId=5f7ae1dbff06e6002290bda5

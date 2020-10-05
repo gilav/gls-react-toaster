@@ -39,14 +39,13 @@
 
 .select {
   display: flex;
-  width: 30%;
   margin-top: 10px;
 }
 
 .position-select {
   background-color: inherit;
   color: #fff;
-  width: 100%;
+  width: 30%;
   height: 30px;
   font-size: 16px;
 }

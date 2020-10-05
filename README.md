@@ -1,9 +1,19 @@
-Here are the results
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/c2zb5t40whr7o2r36eag.png)
+Hello
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/hbuueujfkst6flrpdjpn.gif)
 
-Auto Delete Toast after 3 Seconds
+This is a try to port into typescript the react-toast component made by 'uzochukwueddie' at: https://github.com/uzochukwueddie/react-toast
+So first all the credit go to him for the base.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/oselx4r0wa5lz64o4mu2.gif)
+I am quite new to typescript myself so theresult can be non optimal.
+My goal is to use a toast like notification in an redux-toolkit app.
+
+The step to attach this toast component to redux-toolkit is still to be done at this time.
+
+Releases:
+
+ - 2020-10-05: V:1.0.0
+   - fix few glichh i had with 'uzochukwueddie' code, in particular 'setDismissTime' is not defined. 
+   - typescript into
+   - add rollup
+   - add storybook

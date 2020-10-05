@@ -1,7 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = props => {
+
+type propsTypes = {
+    label: string,
+    className: string,
+    handleClick: () => void,
+}
+
+const Button = (props : propsTypes) => {
     const { label, className, handleClick } = props;
 
     return (
@@ -9,7 +16,7 @@ const Button = props => {
             <button 
                 className={className}
                 onClick={handleClick}
-            >
+                >
                 {label}
             </button>
         </>
